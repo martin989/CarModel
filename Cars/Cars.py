@@ -74,8 +74,10 @@ class CreateUI:
         self.b2.grid(row=14, column=0)
 
         #New Label for testing git
-        self.lbl8=tk.Label(window, text='Testing Git New Label')
-        self.lbl8.grid(row=16, column=1)
+        self.lbl999=tk.Label(window, text='Testing Git New Label')
+        self.lbl999.grid(row=16, column=1)
+        self.b999=tk.Button(window, text='Testing Git New Label', command=self.getTrain)
+        self.b999.grid(row=17, column=1)
 
     def getResult(self): 
         _titlestatus = str(self.cb1.get())
