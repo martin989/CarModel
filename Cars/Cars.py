@@ -73,12 +73,15 @@ class CreateUI:
         self.b2=tk.Button(window, text='Train Model', command=self.getTrain)
         self.b2.grid(row=14, column=0)
 
+<<<<<<< HEAD
         #New Label for testing git
         self.lbl999=tk.Label(window, text='Testing Git New Label')
         self.lbl999.grid(row=16, column=1)
         self.b999=tk.Button(window, text='Testing Git New Label', command=self.getTrain)
         self.b999.grid(row=17, column=1)
 
+=======
+>>>>>>> parent of e701d13 (main)
     def getResult(self): 
         _titlestatus = str(self.cb1.get())
         _make = str(self.cb2.get())
@@ -167,7 +170,7 @@ class DataSet():
 
 
 if __name__ == '__main__':
-    filename='C:\\Users\\Martin\\Desktop\\Masters\\Cars-master\\CarsDataset.csv'
+    filename='C:\\Users\\erinm\\Desktop\\Martin School\\SENG-309 Summer 2020\\A6\\Homework\\CarsDataset.csv'
     window=tk.Tk()
     uiwindow=CreateUI(window,filename)
     window.title('Car Value')
